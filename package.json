@@ -1,0 +1,27 @@
+{
+  "name": "chess-rating-algorithm",
+  "version": "1.0.0",
+  "description": "Chess Rating Algorithm using Elo Rating System",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "lint": "eslint src --ext .js",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "tailwindcss": "^3.3.3",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29",
+    "chart.js": "^4.4.0",
+    "date-fns": "^2.30.0"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9",
+    "vitest": "^0.34.4",
+    "eslint": "^8.48.0",
+    "prettier": "^3.0.3"
+  }
+}

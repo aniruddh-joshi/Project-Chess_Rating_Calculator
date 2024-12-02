@@ -1,0 +1,16 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./main.js"
+  ],
+  theme: {
+    extend: {
+      backgroundImage: {
+        'chess-pattern': "url('/chess-bg.png')"
+      }
+    },
+  },
+  plugins: [],
+}
